@@ -1,6 +1,6 @@
 
 .box {
-    background-image: linear-gradient(to bottom, #2d4fb4);
+    background-image: linear-gradient(to bottom, #2d4fb4, #972c2c);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -16,4 +16,20 @@
 }
 
 
+.box {
+    font-family: "Open Sans", sans-serif;
+}
 
+
+#boxF {
+    animation: moveBoxF 3s infinite alternate;
+}
+
+@keyframes moveBoxF {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}
